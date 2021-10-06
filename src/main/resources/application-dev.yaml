@@ -1,0 +1,4 @@
+   
+file:
+  output: /dev/person.csv
+  prettyPrint: false

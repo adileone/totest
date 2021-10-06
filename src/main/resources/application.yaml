@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://sqlsrv\\sqlexpress;databaseName=customer
+    username: username
+    password: password
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    
+file:
+  output: /tmp/person.csv
+  prettyPrint: false
+  blob-name: scara
+
+
+gsutil:
+  projectId: lmit-dataintegration-itlm
+  bucketname: bucket-temporaneo-lmit
